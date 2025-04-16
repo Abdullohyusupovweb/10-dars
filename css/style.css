@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css2?family=Lora:wght@100;200;300;400;500;600;700&display=swap);
+
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+ul,
+ol{
+  list-style: none;
+
+
+}
+body {
+  font-family: 'Lora', serif;
+}
+
+.container{
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  margin-right: 50px;
+
+}
+.header {
+  height: 100vh;
+  position: relative;
+  background-color: rgb(0,0,0,0.5);
+  color: #fff;
+}
+.header-video{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: cover;
+  height: 100%;
+  z-index: -1;
+}
+.header-container {
+  height:100%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header-title {
+  font-size: 70px;
+  margin-bottom: 30px;
+  font-family: 'Playfair Display', serif;
+
+}
+.header-description {
+  font-size: 20px;
+  margin-bottom: 45px;
+  width: 600px;
+  text-align: center;
+
+
+}
+.header-buttons {
+  display: flex;
+  align-items:center;
+  gap: 50px;
+}
+.header-button {
+  border: 1px solid skyblue;
+  color: #fff;
+  padding:8px 10px;
+  font-size: 18px;
+  font-family: 'Poppins',sans-serif;
+  transition: 0.3s;
+
+  &:hover{
+    background-color: skyblue;
+  }
+}
+
+
+.ml7 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.7em;
+}
+.ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+}
